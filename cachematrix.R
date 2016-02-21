@@ -1,6 +1,10 @@
 ## Our aim is to Cache the inverse of a matrix.
 
-## makeCacheMatrix is function which takes a matrix as an argument
+## makeCacheMatrix is function which takes a matrix as an argument and creates a list containing a function to do the following tasks
+# 1. set the value of the matrix
+# 2. get the value of the matrix
+# 3. set the value of inverse of the matrix
+# 4. get the value of inverse of the matrix
 makeCacheMatrix <- function(x = matrix())
   {
 ## This getFun() gets the argument of parent function (i.e in this case a matrix x)
